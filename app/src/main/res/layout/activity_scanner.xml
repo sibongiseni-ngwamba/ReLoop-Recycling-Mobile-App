@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_app">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Waste Scanner" android:textColor="@color/green_primary_dark" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Choose a waste type or let the app simulate a camera/gallery classification." android:textColor="@color/muted" />
+        <Spinner android:id="@+id/categorySpinner" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="16dp" android:background="@android:color/white" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/galleryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Choose from Gallery (Simulated)" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/randomButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Random Classification" />
+        <TextView android:id="@+id/resultText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:background="@drawable/card_bg" android:padding="18dp" android:text="No classification yet" android:textColor="@color/ink" android:textSize="18sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/guidanceButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="View Guidance" />
+    </LinearLayout>
+</ScrollView>

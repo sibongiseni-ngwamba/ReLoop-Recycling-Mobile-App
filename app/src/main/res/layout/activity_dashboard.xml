@@ -1,0 +1,23 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/welcomeText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/ink" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:id="@+id/pointsText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/green_primary" android:textSize="20sp" android:textStyle="bold" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:cardCornerRadius="8dp">
+            <TextView android:id="@+id/upcomingText" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:text="No upcoming pickup" android:textColor="@color/ink" />
+        </com.google.android.material.card.MaterialCardView>
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:columnCount="2">
+            <com.google.android.material.button.MaterialButton android:id="@+id/scheduleButton" style="@style/DashButton" android:text="Schedule Pickup" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/historyButton" style="@style/DashButton" android:text="Pickup History" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/rewardsButton" style="@style/DashButton" android:text="Rewards" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/guidanceButton" style="@style/DashButton" android:text="Guidance" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/scannerButton" style="@style/DashButton" android:text="Waste Scanner" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/profileButton" style="@style/DashButton" android:text="Profile" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/notificationsButton" style="@style/DashButton" android:text="Notifications" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/logoutButton" style="@style/DashButton" android:text="Logout" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

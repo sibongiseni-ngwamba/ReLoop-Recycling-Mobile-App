@@ -1,0 +1,12 @@
+<resources>
+    <color name="green_primary">#167A45</color>
+    <color name="green_primary_dark">#0E5632</color>
+    <color name="green_light">#E7F4ED</color>
+    <color name="teal_accent">#00A896</color>
+    <color name="ink">#17221D</color>
+    <color name="muted">#66736B</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F6FAF7</color>
+    <color name="warning">#C77800</color>
+    <color name="danger">#B3261E</color>
+</resources>

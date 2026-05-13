@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_app">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Admin Dashboard" android:textColor="@color/green_primary_dark" android:textSize="24sp" android:textStyle="bold" />
+        <TextView android:id="@+id/statsText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/card_bg" android:padding="16dp" android:textColor="@color/ink" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/usersButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Manage Users" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/pickupsButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Manage Pickups" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/rewardsButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Manage Rewards" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/reportsButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reports" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/logoutButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Logout" />
+    </LinearLayout>
+</ScrollView>

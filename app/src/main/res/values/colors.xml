@@ -1,8 +1,13 @@
 <resources>
+    <color name="icon_background">#000000</color>
     <color name="green_primary">#167A45</color>
     <color name="green_primary_dark">#0E5632</color>
     <color name="green_light">#E7F4ED</color>
     <color name="teal_accent">#00A896</color>
+    <color name="welcome_background_start">#050806</color>
+    <color name="welcome_background_mid">#0C1510</color>
+    <color name="welcome_background_end">#183A27</color>
+    <color name="welcome_surface">#142019</color>
     <color name="ink">#17221D</color>
     <color name="muted">#66736B</color>
     <color name="surface">#FFFFFF</color>

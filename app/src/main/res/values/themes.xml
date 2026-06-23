@@ -7,6 +7,15 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:navigationBarColor">@color/background</item>
     </style>
+    <style name="Theme.ReLoop.Welcome" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_dark</item>
+        <item name="colorSecondary">@color/teal_accent</item>
+        <item name="android:windowBackground">@drawable/bg_welcome</item>
+        <item name="android:statusBarColor">@color/welcome_background_start</item>
+        <item name="android:navigationBarColor">@color/welcome_background_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
     <style name="AppEdit">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

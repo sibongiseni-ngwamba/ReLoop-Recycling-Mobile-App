@@ -44,7 +44,30 @@ The application uses a local Room database, meaning it can run without Firebase 
 - View system reports
 
 ---
+### UI screenshots
 
+  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;">
+  <img src="assets/screenshots/Image%201.jpeg" alt="Image 1" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%202.jpeg" alt="Image 2" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%203.jpeg" alt="Image 3" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%204.jpeg" alt="Image 4" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%205.jpeg" alt="Image 5" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%206.jpeg" alt="Image 6" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%207.jpeg" alt="Image 7" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%208.jpeg" alt="Image 8" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%209.jpeg" alt="Image 9" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2010.jpeg" alt="Image 10" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2011.jpeg" alt="Image 11" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2012.jpeg" alt="Image 12" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2013.jpeg" alt="Image 13" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2014.jpeg" alt="Image 14" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2015.jpeg" alt="Image 15" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2016.jpeg" alt="Image 16" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2017.jpeg" alt="Image 17" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  <img src="assets/screenshots/image%2018.jpeg" alt="Image 18" style="width:240px;height:auto;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.08);" />
+  </div>
+
+---
 ## Technologies Used
 
 - Kotlin
